@@ -3,4 +3,5 @@ seaborn
 statsmodels
 jinja2
 pandas
-openxls
+openpyxl
+scipy
