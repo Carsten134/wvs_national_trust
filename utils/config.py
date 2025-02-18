@@ -34,7 +34,6 @@ REGRESSORS = [# corruption
               "security_war",
               
               # demographics (including happiness)
-              "age_std",
-              "age_std^2",
+              "age",
               "gender",
               "above_avg_inc"]

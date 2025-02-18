@@ -32,6 +32,8 @@ def run_preprocessing():
   # save as csv
   print("finished, now saving processed data...")
   processed_cs[[*REGRESSORS,
+                "age_std",
+                "age_std^2",
                 "wpfi",
                 *[f"country_{i}" for i in COUNTRIES_ISO],
                 "national_distrust_index",
