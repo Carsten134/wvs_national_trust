@@ -10,6 +10,7 @@ The structure follows the sections of the report:
 - [`linear_regressions.ipynb`](linear_regressions.ipynb) contains all the linear regressions we ran
     - it prints out the latex tables in apa style and stores the diagnostical plots in `./plots/`
 - [`jonckheere_terpstra.pdf`](jonckheere_terpstra.pdf) contains the code used to test for the trend in German national distrust
+- [`linear_contrast_testing.ipynb`](linear_contrast_testing.ipynb) contains the original contrast coefficient test, we used to verify a linear trend in German national distrust.
 
 ## Setup
 We have included a `requirements.txt` to reproduce the same dependencies used for this analysis. To install the dependencies first create a virtual environment and then install the dependencies using `pip` or `conda`.*Additionally, use python version 3.12*.
