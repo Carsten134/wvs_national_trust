@@ -18,5 +18,5 @@ We have included a `requirements.txt` to reproduce the same dependencies used fo
 ## Running the preprocessing
 The repository does not contain the complete wave 7 and timeseries data from the WVS since the upload size to github is limited to 20MB. To run the preprocessing:
 1. Download the [cross-sectional data `.csv`](https://www.worldvaluessurvey.org/WVSDocumentationWV7.jsp) and the [time-series data `.csv`](https://www.worldvaluessurvey.org/WVSDocumentationWVL.jsp) from the WVS database and put them into the `./data/wvs/` directory under the name `WVS_Cross_National.csv` and `WVS_Time_Series.csv`. 
-2. After activating your environment, run `python -m util.preprocessing` **from the root directory**
+2. After activating your environment, run `python -m utils.preprocessing` **from the root directory**
 
